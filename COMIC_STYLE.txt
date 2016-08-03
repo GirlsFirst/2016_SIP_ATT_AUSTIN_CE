@@ -1,0 +1,31 @@
+<style>
+
+body{
+	background-image: url("back.jpg");
+	background-position: center;
+}
+
+h1{
+	color:rgb(0, 169, 206);
+	font-family: 'Muli', sans-serif;
+	font-size:175px ;
+	text-align:center;
+	
+}
+
+h2{
+	color:teal;
+	font-size:100
+}
+
+#map{
+	width:100%;
+	height:400px;
+}
+
+div.icons{
+	float: center
+	
+}
+
+</style>
