@@ -3,21 +3,32 @@
 body{
 	background-image: url("BACKGROUND.jpg");
 	background-position: center;
-	
 }
 
 h1{
-	color: rgb(210, 38, 48);
-	font-family: 'Muli', sans-serif;
+	color:rgb(188,25,31);
+	font-family:'Space Mono', monospace;
 	font-size:100px ;
 	text-align:center;
 }
 
 h2{
-	color:rgb(210, 38, 48);
-	font-size:110px;
-	font-family: 'Della Respira', serif;
+	color:rgb(0,169,160);
+	font-size:80px;
+	font-family:'Work Sans', sans-serif;
 	text-align:center;
+}
+
+h3{
+	font-family: 'Neuton', serif;
+	font-size: 30px;
+}
+
+p{
+
+	font-size:22px;
+	font-family: 'Asul', sans-serif;
+	text-align: center;
 }
 
 #map{
@@ -28,6 +39,40 @@ h2{
 div.icons{
 	float: center; 
 	margin:20px 20px; 
+}
+
+
+/*GROW*/
+.grow img {
+  height: 1000px;
+  width: 1000px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 1000px;
+  height: 1000px;
+}
+
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 500px;
+  height: 500px;
 }
 
 </style>
