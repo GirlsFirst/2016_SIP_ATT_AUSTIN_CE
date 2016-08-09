@@ -3,21 +3,32 @@
 body{
 	background-image: url("BACKGROUND.jpg");
 	background-position: center;
-	
 }
 
 h1{
-	color: rgb(210, 38, 48);
-	font-family: 'Muli', sans-serif;
+	color:rgb(188,25,31);
+	font-family:'Space Mono', monospace;
 	font-size:100px ;
 	text-align:center;
 }
 
 h2{
-	color:rgb(210, 38, 48);
-	font-size:110px;
-	font-family: 'Della Respira', serif;
+	color:rgb(0,169,160);
+	font-size:80px;
+	font-family:'Work Sans', sans-serif;
 	text-align:center;
+}
+
+h3{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
+}
+
+p{
+
+	font-size:22px;
+	font-family: 'Asul', sans-serif;
+	text-align: center;
 }
 
 #map{
@@ -30,4 +41,105 @@ div.icons{
 	margin:20px 20px; 
 }
 
+/*GROW*/
+.grow img {
+  height: 500px;
+  width: 500px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 550px;
+  height: 550px;
+}
+
+.grow img {
+  height: 500px;
+  width: 500px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+
+  width: 550px;
+  height: 550px;
+}
+
+
+.grow1 img {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow1 img:hover {
+  width: 350px;
+  height: 350px;
+}
+
+.grow1 img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow1 img:hover {
+
+  width: 350px;
+  height: 350px;
+}
+
+
+.grow2 img {
+  height: 450px;
+  width: 700px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow2 img:hover {
+  width: 750px;
+  height: 490px;
+}
+
+.grow2 img {
+  height: 450px;
+  width: 700px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow2 img:hover {
+
+  width: 750px;
+  height: 490px;
+}
 </style>

@@ -1,6 +1,0 @@
-
-
-LISCENSE:
-
-MIT LISCENCE:
-
